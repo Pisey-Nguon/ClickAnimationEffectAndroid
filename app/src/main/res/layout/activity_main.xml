@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/bt1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#4355BA"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="Button 1" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <TextView
+        android:id="@+id/bt2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#4355BA"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="Button 2" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <TextView
+        android:id="@+id/bt3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#4355BA"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="Button 3" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <TextView
+        android:id="@+id/bt4"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#4355BA"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="Double Click" />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
